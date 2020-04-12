@@ -1,6 +1,6 @@
 require("dotenv").config();
-const fetch = require("node-fetch");
 
+const getData = require('./utils/helpers/get-data.js');
 const getUserInfo = require("./utils/user/get-user-info.js");
 
 class Hearo {
@@ -9,7 +9,7 @@ class Hearo {
   }
 
   userInfo(userName) {
-    fetch(getUserInfo(userName))
+    getData(getUserInfo(userName))
       .then((res) => res.json())
       .then((json) => json);
   }
