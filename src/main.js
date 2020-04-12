@@ -1,7 +1,7 @@
 require("dotenv").config();
 
-const getData = require('./utils/helpers/get-data.js');
-const getUserInfo = require("./utils/user/get-user-info.js");
+const getData = require('./lib/helpers/get-data.js');
+const getUserInfo = require("./lib/user/get-user-info.js");
 
 class Hearo {
   constructor(API_KEY) {
