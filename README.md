@@ -33,11 +33,15 @@ API_KEY=123456789
 TOKEN=123456789
 ```
 
+***
+
 ### Development
 
 1. Clone repo: `git clone https://github.com/chinjon/hearo.git`
 2. `cd` into `hearo`
 3. Run `npm i`
+
+***
 
 ### Testing
 
