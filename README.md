@@ -5,6 +5,7 @@
 - [Usage](#usage)
   - [Prerequistes](#prerequistes)
   - [Development](#development)
+  - [Testing](#testing)
 
 ***
 
@@ -37,3 +38,10 @@ TOKEN=123456789
 1. Clone repo: `git clone https://github.com/chinjon/hearo.git`
 2. `cd` into `hearo`
 3. Run `npm i`
+
+### Testing
+
+Tests have been set up using `mocha` and `nyc` for test coverage.
+
+* `npm run test` - executes tests
+* `npm run coverage` - executes tests with coverage report
