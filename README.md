@@ -13,6 +13,8 @@
 
 Project is to create an interface with the `LastFM` API.
 
+🌟***DISCLAIMER: This project is not affiliated with LastFM***🌟
+
 ### Links
 
 * [LastFM](https://www.last.fm)
