@@ -1,7 +1,7 @@
 {
   "name": "hearo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Interface for the LastFM API.",
   "main": "index.js",
   "scripts": {
     "test": "mocha **/**/*.spec.js",
