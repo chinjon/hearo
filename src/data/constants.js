@@ -4,7 +4,8 @@ module.exports = {
     artist:{
       getArtistInfo: 'artist.getinfo',
       getArtistSimilar: 'artist.getsimilar',
-      getArtistTopAlbums: 'artist.gettopalbums'
+      getArtistTopAlbums: 'artist.gettopalbums',
+      getArtistTopTracks: 'artist.gettoptracks'
     },
     user: {
       getUserInfo: 'user.getinfo'
