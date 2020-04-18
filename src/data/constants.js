@@ -3,7 +3,8 @@ module.exports = {
   methods: {
     artist:{
       getArtistInfo: 'artist.getinfo',
-      getArtistSimilar: 'artist.getSimilar'
+      getArtistSimilar: 'artist.getsimilar',
+      getArtistTopAlbums: 'artist.gettopalbums'
     },
     user: {
       getUserInfo: 'user.getinfo'
