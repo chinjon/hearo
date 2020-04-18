@@ -5,7 +5,7 @@ const createApiUrl = require('../helpers/create-api-url.js');
 /**
  * @description Abstraction of artist.getArtistInfo method
  * @param {String} artist 
- * @returns {String} returns API url to search for artist data
+ * @returns {String} returns API url to search for artist datagit statu
  */
 const getArtistInfo = (artist) => {
   const artistInfoQuery = `artist=${artist}`;
