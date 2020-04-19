@@ -26,7 +26,7 @@ Project is to create an interface with the `LastFM` API.
 
 ### Prerequistes
 
-In order to make api calls to `LastFM`, an API account is required. After making an account, users should be presented with an `API key` and a `token`. [You can create an API account on LastFM](https://www.last.fm/api/account/create)
+In order to make api calls to `LastFM`, an API account is required. After making an account, users should be presented with an `API key` and a `token`. [You can create an API account on LastFM](https://www.last.fm/api/account/create).
 
 To leverage those authentication items, place them in a `.env` file:
 
