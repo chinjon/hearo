@@ -3,7 +3,7 @@ const getUserRecentTracks = require('../get-user-recent-tracks.js');
 
 const TEST_USER_NAME = 'testusername';
 
-describe('getUserInfo()', () => {
+describe('getUserRecentTracks()', () => {
   const API_URL = getUserRecentTracks(TEST_USER_NAME);
 
   it('should return value of type string', () => {
