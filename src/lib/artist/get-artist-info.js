@@ -9,7 +9,7 @@ const createApiUrl = require('../helpers/create-api-url.js');
  */
 const getArtistInfo = (artist) => {
   const artistInfoQuery = `artist=${artist}`;
-  return createApiUrl(constants.rootUrl, constants.methods.user.getArtistInfo, process.env.API_KEY, artistInfoQuery);
+  return createApiUrl(constants.rootUrl, constants.methods.artist.getArtistInfo, process.env.API_KEY, artistInfoQuery);
 }
 
 module.exports = getArtistInfo;
