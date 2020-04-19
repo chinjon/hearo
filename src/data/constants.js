@@ -5,6 +5,7 @@ module.exports = {
       getArtistInfo: 'artist.getinfo',
       getArtistSimilar: 'artist.getsimilar',
       getArtistTopAlbums: 'artist.gettopalbums',
+      getArtistTopTags: 'artist.gettoptags',
       getArtistTopTracks: 'artist.gettoptracks'
     },
     user: {
