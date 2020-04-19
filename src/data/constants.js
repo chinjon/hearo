@@ -9,7 +9,8 @@ module.exports = {
       getArtistTopTracks: 'artist.gettoptracks'
     },
     user: {
-      getUserInfo: 'user.getinfo'
+      getUserInfo: 'user.getinfo',
+      getRecentTracks: 'user.getrecenttracks'
     }
   }
 }
