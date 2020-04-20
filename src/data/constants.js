@@ -10,7 +10,7 @@ module.exports = {
     },
     user: {
       getUserInfo: 'user.getinfo',
-      getRecentTracks: 'user.getrecenttracks'
+      getUserRecentTracks: 'user.getrecenttracks'
     }
   }
 }
