@@ -11,7 +11,8 @@ module.exports = {
     user: {
       getUserInfo: 'user.getinfo',
       getUserRecentTracks: 'user.getrecenttracks',
-      getUserTopTracks: 'user.getusertoptracks'
+      getUserTopArtists: 'user.gettopartists',
+      getUserTopTracks: 'user.gettoptracks'
     }
   }
 }
